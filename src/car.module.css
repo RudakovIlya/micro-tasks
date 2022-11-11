@@ -1,0 +1,16 @@
+.table {
+    width: 650px;
+    border-top: 7px solid #FF8630;
+    border-left: 1px solid #FF8630;
+    border-right: 1px solid #FF8630;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.td, .th,.tr {
+    border: 1px solid #FF8630;
+    border-left-width: 0;
+    padding: 14px;
+    vertical-align: top;
+    line-height: 1.2;
+}
