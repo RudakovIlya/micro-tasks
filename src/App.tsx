@@ -4,6 +4,7 @@ import {Button} from "./02_Button-task/Button";
 import {State} from "./03_UseState/UseState";
 import {Filter} from "./04_Filter/Filter";
 import {Counter} from "./05_Counter/Counter";
+import {InputTask} from "./06_Input-task/Input";
 
 /*
 import {Header} from "./site/Header";
@@ -44,8 +45,9 @@ function App() {
 
     return (
         <div className={'App'}>
-            <Filter onClickFilterHandler={onClickFilterHandler} currentMoney={currentMoney}/>
-            <Counter/>
+            {/*<Filter onClickFilterHandler={onClickFilterHandler} currentMoney={currentMoney}/>*/}
+            {/*<Counter/>*/}
+            <InputTask/>
         </div>
     );
 }
